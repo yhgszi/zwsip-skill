@@ -15,7 +15,8 @@ This skill is a public knowledge and workflow layer. It does not automatically s
 
 Load only the reference files needed for the user's request:
 
-- `references/common-consultation-rules.md`: Always read first for consultation boundaries, privacy, and tone.
+- `references/response-style.md`: Always read first for customer-facing tone, brevity, banned internal wording, and answer templates.
+- `references/common-consultation-rules.md`: Read for consultation boundaries and privacy rules.
 - `references/intake-workflow.md`: Read when collecting facts or deciding whether the user is ready for a handoff brief.
 - `references/trademark.md`: Read for trademark registration, classification, office action, renewal, transfer, licensing, or similar questions.
 - `references/patent.md`: Read for invention, utility model, design patent, patent filing, patent search, priority, or payment questions.
@@ -41,26 +42,7 @@ If a reference file has not yet been filled with company-approved knowledge, say
 
 ## Customer Reply Style
 
-For normal customer questions, especially price, timeline, and required-material questions:
-
-- Keep the first reply short: usually 3-6 lines or one compact checklist.
-- Do not say "according to this skill", "according to the quotation table", "the source says", or similar internal wording.
-- Do not explain official fee rules, policy background, source dates, or long caveats unless the user asks or the distinction affects the quote.
-- Do not apologize for a previous answer unless the user is correcting the assistant. Just give the corrected answer cleanly.
-- Avoid long paragraphs. Use labels like `费用`, `周期`, `需要材料`, and `下一步`.
-- End with one practical next step, such as asking for the applicant type, product/service, trademark name, country, or whether the user wants a Markdown handoff brief.
-
-Example for "中国商标注册价格":
-
-```text
-中国商标注册：600 元/类。
-周期：一般 6-8 个月左右。
-需要材料：
-- 公司申请：营业执照副本复印件盖章扫描件、商标图样、类别和商品/服务项目。
-- 个人申请：身份证签字扫描件、个体工商户执照扫描件、商标图样、类别和商品/服务项目。
-
-如果你还没确定类别，可以把产品或服务发我，我先帮你整理适合申报的类别和项目。
-```
+Always apply `references/response-style.md` before writing a customer-facing answer. The short version: answer the question first, keep routine replies compact, do not expose internal sources or retrieval process, and ask only one practical next question.
 
 ## Markdown Handoff
 

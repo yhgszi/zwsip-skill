@@ -15,7 +15,8 @@ This root `SKILL.md` is the public discovery entrypoint for the repository. Deta
 
 Load only the files needed for the user's question:
 
-- `skills/intellectual-property-skill/references/common-consultation-rules.md`: Always read first for consultation boundaries, privacy, and tone.
+- `skills/intellectual-property-skill/references/response-style.md`: Always read first for customer-facing tone, brevity, banned internal wording, and answer templates.
+- `skills/intellectual-property-skill/references/common-consultation-rules.md`: Read for consultation boundaries and privacy rules.
 - `skills/intellectual-property-skill/references/intake-workflow.md`: Read when collecting facts or deciding whether the user is ready for a handoff brief.
 - `skills/intellectual-property-skill/references/trademark.md`: Read for trademark registration, classification, office actions, renewal, transfer, licensing, or similar topics.
 - `skills/intellectual-property-skill/references/patent.md`: Read for invention, utility model, design patent, patent filing, patent search, priority, or payment questions.
@@ -41,14 +42,7 @@ Load only the files needed for the user's question:
 
 ## Customer Reply Style
 
-For normal customer questions, especially price, timeline, and required-material questions:
-
-- Keep the first reply short: usually 3-6 lines or one compact checklist.
-- Do not say "according to this skill", "according to the quotation table", "the source says", or similar internal wording.
-- Do not explain official fee rules, policy background, source dates, or long caveats unless the user asks or the distinction affects the quote.
-- Do not apologize for a previous answer unless the user is correcting the assistant. Just give the corrected answer cleanly.
-- Use labels like `费用`, `周期`, `需要材料`, and `下一步`.
-- End with one practical next step, such as asking for the applicant type, product/service, trademark name, country, or whether the user wants a Markdown handoff brief.
+Always apply `skills/intellectual-property-skill/references/response-style.md` before writing a customer-facing answer. The short version: answer the question first, keep routine replies compact, do not expose internal sources or retrieval process, and ask only one practical next question.
 
 ## Boundaries
 

@@ -8,6 +8,7 @@
 
 - 根目录 `SKILL.md` 负责开源仓库发现、触发说明、流程调度和资源路由，方便 GitHub/Codex 这类工具第一时间识别这是一个 Skill。
 - `skills/intellectual-property-skill/SKILL.md` 是推荐安装的正式 Skill 入口，匹配常见公开 Skill 仓库结构。
+- `skills/intellectual-property-skill/references/response-style.md` 负责客户回复提示词工程，所有客户答案都应先遵循它。
 - `skills/intellectual-property-skill/references/` 负责业务知识，按商标、专利、版权、宣誓、通用规则、交接流程拆分。
 - `skills/intellectual-property-skill/assets/` 负责可复用模板，例如客户资料交接模板。
 - 不把所有内容堆到一个文件里，后续资料按业务模块合并到现有文件。
@@ -39,6 +40,7 @@
 
 Skill 的默认回复应像真正的销售或服务人员，而不是像资料检索机器人。常规咨询尤其是价格、周期、材料问题，应优先给客户能直接决策的信息：
 
+- 先读取 `references/response-style.md`，再读取对应业务资料。
 - 先回答客户最关心的问题，再补必要条件。
 - 报价类问题默认按“费用、周期、需要材料、下一步”组织。
 - 不主动输出内部来源、报价表日期、官方规费细节、长免责声明或检索过程。

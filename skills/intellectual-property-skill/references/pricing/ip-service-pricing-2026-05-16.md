@@ -1,5 +1,9 @@
 # 知识产权业务报价（2026.5.16）
 
+## Customer-Facing Rule
+
+The metadata below is for internal retrieval only. Do not mention the source file, conversion date, snapshot date, or review note in customer-facing replies. When answering customers, give only the relevant fee, timeline, required materials, and next step. Follow `../response-style.md`.
+
 - 来源文件：`知识产权业务报价（2026.5.16）.xlsx`
 - 转换日期：2026-05-18
 - 用途：供 AI Agent 快速检索报价、周期、材料和注意事项。

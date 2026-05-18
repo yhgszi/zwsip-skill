@@ -23,6 +23,8 @@
 - 推荐安装目录：`skills/intellectual-property-skill/`
 - GitHub About 描述包含中英关键词：知识产权、AI Agent Skill、商标、专利、版权、trademark、patent、copyright、PCT、Hague、MPEP。
 - GitHub Topics 包含：`intellectual-property`、`ai-agent`、`codex`、`skill`、`trademark`、`patent`、`copyright`、`pct`、`mpep`、`hague-system`、`legaltech`、`knowledge-base`。
+- README 和 Skill 描述中保留搜索器常用词组：`知识产权 skill`、`专利 skill`、`商标 skill`、`版权 skill`、`intellectual property skill`、`trademark skill`、`patent skill`、`copyright skill`、`topic:skill`、`path:skills`。
+- 新仓库如果被搜索器加上 `stars:>1` 过滤，短期内会被排除；这需要真实 GitHub star 和使用活跃度累积，不能仅靠 README 解决。
 
 根目录 `SKILL.md` 不复制业务正文，只路由到 `skills/intellectual-property-skill/references/` 和 `skills/intellectual-property-skill/assets/`，避免后续维护两份业务口径。
 

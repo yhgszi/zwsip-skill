@@ -1,6 +1,6 @@
 ---
 name: intellectual-property-skill
-description: AI Agent skill for intellectual property consultation in Chinese and English. Use for trademark registration, patent filing, copyright registration, IP service selection, US trademark declarations, PCT international applications, Hague designs, MPEP or USPTO questions, client intake, pricing and timeline orientation, required-materials guidance, and Markdown handoff briefs for sales or professional follow-up.
+description: AI Agent skill for intellectual property consultation in Chinese and English. Use for 知识产权 skill, 专利 skill, 商标 skill, 版权 skill, trademark registration, patent filing, copyright registration, IP service selection, US trademark declarations, PCT international applications, Hague designs, MPEP or USPTO questions, client intake, pricing and timeline orientation, required-materials guidance, and Markdown handoff briefs for sales or professional follow-up.
 ---
 
 # Intellectual Property Skill

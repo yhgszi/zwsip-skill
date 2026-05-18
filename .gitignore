@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+tools/
+
+# Local raw source materials kept for audit/regeneration, not needed by the installable skill.
+docs/e9r-01-2024/
+docs/e9r-01-2024-md/
+docs/*.xlsx
+docs/知识产权业务报价（2026.5.16）.md

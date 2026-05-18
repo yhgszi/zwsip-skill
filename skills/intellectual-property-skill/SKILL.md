@@ -15,6 +15,7 @@ This skill is a public knowledge and workflow layer. It does not automatically s
 
 Load only the reference files needed for the user's request:
 
+- `references/remote-update.md`: Read first when internet access is available. Prefer latest public GitHub raw reference files, but never send customer facts or private content externally.
 - `references/response-style.md`: Always read first for customer-facing tone, brevity, banned internal wording, and answer templates.
 - `references/common-consultation-rules.md`: Read for consultation boundaries and privacy rules.
 - `references/intake-workflow.md`: Read when collecting facts or deciding whether the user is ready for a handoff brief.
@@ -32,13 +33,14 @@ If a reference file has not yet been filled with company-approved knowledge, say
 
 ## Consultation Workflow
 
-1. Classify the user's need: trademark, patent, copyright, declaration, mixed IP, or uncertain.
-2. Confirm the jurisdiction, applicant type, business goal, urgency, and current stage before giving detailed procedural guidance.
-3. Reply like a concise sales or service specialist, not like a research assistant. Give the customer-facing answer first.
-4. Answer the immediate question first, then ask only one useful next question when needed.
-5. Separate user-provided facts from assumptions only when the distinction affects the next step.
-6. Mention uncertainty clearly when pricing, official timing, document requirements, or legal strategy are not confirmed in the references.
-7. When the user has shared enough concrete facts or asks about next steps, gently ask whether they want to connect with the configured sales contact and receive a Markdown handoff brief.
+1. If internet access is available, apply `references/remote-update.md` and prefer the latest public raw GitHub copies of needed reference files. If not, use the installed local files.
+2. Classify the user's need: trademark, patent, copyright, declaration, mixed IP, or uncertain.
+3. Confirm the jurisdiction, applicant type, business goal, urgency, and current stage before giving detailed procedural guidance.
+4. Reply like a concise sales or service specialist, not like a research assistant. Give the customer-facing answer first.
+5. Answer the immediate question first, then ask only one useful next question when needed.
+6. Separate user-provided facts from assumptions only when the distinction affects the next step.
+7. Mention uncertainty clearly when pricing, official timing, document requirements, or legal strategy are not confirmed in the references.
+8. When the user has shared enough concrete facts or asks about next steps, gently ask whether they want to connect with the configured sales contact and receive a Markdown handoff brief.
 
 ## Customer Reply Style
 

@@ -49,15 +49,44 @@ PCT 国际申请大概是什么流程？
 
 ## 安装方式
 
-把仓库里的 `ip-business-consultant/` 文件夹复制到你的 AI Agent 的 Skills 目录。
+这个仓库现在在根目录提供 `SKILL.md`，也保留了 `ip-business-consultant/` 子目录版本。对于 Codex 这类会搜索 `SKILL.md` 的工具，根目录入口更容易被识别；对于已经按子目录安装的人，原来的方式仍然可用。
 
-以 Codex 为例：
+如果你让 Codex 帮你安装，可以直接说：
+
+```text
+Install the skill from https://github.com/yhgszi/intellectual-property-skill
+```
+
+如果你使用 Codex 的 GitHub Skill 安装脚本，可以安装根目录入口：
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo yhgszi/intellectual-property-skill \
+  --path . \
+  --name intellectual-property-skill
+```
+
+也可以只安装业务子目录：
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo yhgszi/intellectual-property-skill \
+  --path ip-business-consultant
+```
+
+手动安装时，把仓库根目录或 `ip-business-consultant/` 文件夹复制到你的 AI Agent 的 Skills 目录。以 Codex 为例：
 
 ```bash
 ~/.codex/skills/ip-business-consultant
 ```
 
-安装后，你可以直接提问；也可以显式调用：
+安装根目录入口后，你可以显式调用：
+
+```text
+Use $intellectual-property-skill to answer my trademark registration question.
+```
+
+安装子目录版本时，可以显式调用：
 
 ```text
 Use $ip-business-consultant to answer my trademark registration question.
@@ -86,6 +115,17 @@ Use $ip-business-consultant to answer my trademark registration question.
 ## 相关主题
 
 知识产权、商标注册、专利申请、版权登记、美国专利、美国商标宣誓、PCT 国际申请、海牙外观、MPEP、AI Agent Skill、Codex Skill、intellectual property、trademark、patent、copyright、IP consultant、legaltech。
+
+## 搜索关键词
+
+如果你在 GitHub 或 Codex 里查找类似 Skill，可以尝试这些关键词：
+
+- `intellectual property skill`
+- `知识产权 skill`
+- `trademark patent skill`
+- `AI Agent intellectual property skill`
+- `Codex intellectual property skill`
+- `IP consultant skill`
 
 ## 说明
 

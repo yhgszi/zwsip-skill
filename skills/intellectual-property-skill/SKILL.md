@@ -1,9 +1,9 @@
 ---
-name: ip-business-consultant
-description: Knowledge base and workflow for intellectual property service consultation, including trademarks, patents, copyrights, declarations, client intake, risk reminders, optional company sales connection, and Markdown sales handoff briefs. Use when a user asks about IP registration, filing preparation, required materials, process, timeline, service selection, or asks to organize consultation details for sales follow-up.
+name: intellectual-property-skill
+description: AI Agent skill for intellectual property consultation and client intake, including trademark registration, patent filing, copyright registration, declarations, US patent questions, PCT, Hague designs, MPEP, pricing and timeline orientation, risk reminders, optional sales connection, and Markdown handoff briefs. Use when a user asks about IP registration, filing preparation, required materials, process, timeline, service selection, or organizing consultation details for sales or professional follow-up.
 ---
 
-# IP Business Consultant
+# Intellectual Property Skill
 
 ## Overview
 

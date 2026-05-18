@@ -1,7 +1,0 @@
-interface:
-  display_name: "IP Business Consultant"
-  short_description: "IP service guidance and sales-ready handoff briefs"
-  default_prompt: "Use $ip-business-consultant to answer an intellectual property service question and prepare a sales handoff brief when useful."
-
-policy:
-  allow_implicit_invocation: true

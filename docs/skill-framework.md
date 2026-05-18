@@ -7,9 +7,9 @@
 ## 架构原则
 
 - 根目录 `SKILL.md` 负责开源仓库发现、触发说明、流程调度和资源路由，方便 GitHub/Codex 这类工具第一时间识别这是一个 Skill。
-- `ip-business-consultant/SKILL.md` 保留为业务子目录版本，方便只安装该目录的用户使用。
-- `ip-business-consultant/references/` 负责业务知识，按商标、专利、版权、宣誓、通用规则、交接流程拆分。
-- `ip-business-consultant/assets/` 负责可复用模板，例如客户资料交接模板。
+- `skills/intellectual-property-skill/SKILL.md` 是推荐安装的正式 Skill 入口，匹配常见公开 Skill 仓库结构。
+- `skills/intellectual-property-skill/references/` 负责业务知识，按商标、专利、版权、宣誓、通用规则、交接流程拆分。
+- `skills/intellectual-property-skill/assets/` 负责可复用模板，例如客户资料交接模板。
 - 不把所有内容堆到一个文件里，后续资料按业务模块合并到现有文件。
 - 价格、政策、官方周期等易变化信息必须标注来源和日期。
 
@@ -20,11 +20,11 @@
 - 仓库名：`intellectual-property-skill`
 - 根目录入口：`SKILL.md`
 - 根目录 UI 元数据：`agents/openai.yaml`
-- 业务子目录：`ip-business-consultant/`
+- 推荐安装目录：`skills/intellectual-property-skill/`
 - GitHub About 描述包含中英关键词：知识产权、AI Agent Skill、商标、专利、版权、trademark、patent、copyright、PCT、Hague、MPEP。
 - GitHub Topics 包含：`intellectual-property`、`ai-agent`、`codex`、`skill`、`trademark`、`patent`、`copyright`、`pct`、`mpep`、`hague-system`、`legaltech`、`knowledge-base`。
 
-根目录 `SKILL.md` 不复制业务正文，只路由到 `ip-business-consultant/references/` 和 `ip-business-consultant/assets/`，避免后续维护两份业务口径。
+根目录 `SKILL.md` 不复制业务正文，只路由到 `skills/intellectual-property-skill/references/` 和 `skills/intellectual-property-skill/assets/`，避免后续维护两份业务口径。
 
 ## 资料补充顺序
 
@@ -61,8 +61,8 @@ Skill 已配置销售对接信息：
 
 - `docs/e9r-01-2024-md/INDEX.md`
 - `docs/e9r-01-2024-md/*.md`
-- `ip-business-consultant/references/mpep-e9r-01-2024/INDEX.md`
-- `ip-business-consultant/references/mpep-e9r-01-2024/*.md`
+- `skills/intellectual-property-skill/references/mpep-e9r-01-2024/INDEX.md`
+- `skills/intellectual-property-skill/references/mpep-e9r-01-2024/*.md`
 
 缓存共 44 个 Markdown 文件，其中 43 个对应原始 PDF，1 个为索引文件。总大小约 17MB，索引显示提取文本约 1766 万字符。
 

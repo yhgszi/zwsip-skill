@@ -1,0 +1,7 @@
+interface:
+  display_name: "Intellectual Property Skill"
+  short_description: "Trademark, patent, copyright, MPEP, and IP handoff briefs"
+  default_prompt: "Use $intellectual-property-skill to answer an intellectual property service question and prepare a Markdown handoff brief when useful."
+
+policy:
+  allow_implicit_invocation: true

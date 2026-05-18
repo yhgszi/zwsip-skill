@@ -1,4 +1,4 @@
-# 知识产权 AI Skill / Intellectual Property Consultant Skill
+# 知识产权 AI Skill / Intellectual Property Skill
 
 这是一个可以安装到 AI Agent 里的知识产权业务咨询 Skill，适合 Codex、ChatGPT Agent、Claude Code 等支持技能扩展的工具使用。
 
@@ -49,15 +49,28 @@ PCT 国际申请大概是什么流程？
 
 ## 安装方式
 
-这个仓库现在在根目录提供 `SKILL.md`，也保留了 `ip-business-consultant/` 子目录版本。对于 Codex 这类会搜索 `SKILL.md` 的工具，根目录入口更容易被识别；对于已经按子目录安装的人，原来的方式仍然可用。
+这个仓库采用常见的 Skill 仓库结构：
+
+- 根目录 `SKILL.md`：给 GitHub、Codex 和其他 Agent 做快速识别。
+- `skills/intellectual-property-skill/SKILL.md`：推荐安装的正式 Skill 入口。
+
+如果你只是想安装使用，推荐安装 `skills/intellectual-property-skill` 这个目录。它的名字、路径和说明都直接写明了 intellectual property、trademark、patent、copyright、MPEP 等关键词，更容易被搜索和安装工具识别。
 
 如果你让 Codex 帮你安装，可以直接说：
 
 ```text
-Install the skill from https://github.com/yhgszi/intellectual-property-skill
+Install the skill from https://github.com/yhgszi/intellectual-property-skill/tree/main/skills/intellectual-property-skill
 ```
 
-如果你使用 Codex 的 GitHub Skill 安装脚本，可以安装根目录入口：
+如果你使用 Codex 的 GitHub Skill 安装脚本，推荐这样安装：
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo yhgszi/intellectual-property-skill \
+  --path skills/intellectual-property-skill
+```
+
+也可以安装根目录发现入口：
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
@@ -66,30 +79,16 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
   --name intellectual-property-skill
 ```
 
-也可以只安装业务子目录：
+手动安装时，把 `skills/intellectual-property-skill/` 文件夹复制到你的 AI Agent 的 Skills 目录。以 Codex 为例：
 
 ```bash
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo yhgszi/intellectual-property-skill \
-  --path ip-business-consultant
+~/.codex/skills/intellectual-property-skill
 ```
 
-手动安装时，把仓库根目录或 `ip-business-consultant/` 文件夹复制到你的 AI Agent 的 Skills 目录。以 Codex 为例：
-
-```bash
-~/.codex/skills/ip-business-consultant
-```
-
-安装根目录入口后，你可以显式调用：
+安装后，你可以显式调用：
 
 ```text
 Use $intellectual-property-skill to answer my trademark registration question.
-```
-
-安装子目录版本时，可以显式调用：
-
-```text
-Use $ip-business-consultant to answer my trademark registration question.
 ```
 
 ## 它会怎么整理资料
